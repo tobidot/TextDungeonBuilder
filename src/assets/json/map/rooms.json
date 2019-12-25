@@ -1,0 +1,39 @@
+[{
+    "base": [
+        "        ",
+        "        ",
+        "        ",
+        "        ",
+        "        ",
+        "        ",
+        "        ",
+        "        "
+    ],
+    "static": [
+
+    ],
+    "dynamic": [
+
+    ],
+    "description": "Empty room",
+    "rarity": 0
+}, {
+    "base": [
+        "        ",
+        "        ",
+        "  ~~~~  ",
+        "  ~~~~  ",
+        "  ~~~~  ",
+        "  ~~~~  ",
+        "        ",
+        "        "
+    ],
+    "static": [
+
+    ],
+    "dynamic": [
+
+    ],
+    "description": "Pond in the middle",
+    "rarity": 1
+}]

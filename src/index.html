@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .wrapper {
+            display: flex;
+            background: black;
+            width: 100vw;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            width: 800px;
+            height: 600px;
+            overflow: hidden;
+            border: 2px solid gray;
+        }
+
+        #app {
+            display: inline;
+            font-family: monospace;
+            color: white;
+            white-space: normal;
+            word-break: break-word;
+            letter-spacing: 5.8px;
+            line-height: calc(600px / 26);
+            text-align: center;
+            font-size: 25px;
+            margin: auto;
+            user-select: none;
+
+        }
+
+        #app span {
+            display: inline;
+            white-space: pre;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="container">
+            <div id="app"></div>
+        </div>
+    </div>
+    <script src="./main.ts">
+    </script>
+</body>
+
+</html>>
